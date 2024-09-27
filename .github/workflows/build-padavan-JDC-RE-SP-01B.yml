@@ -88,6 +88,9 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=n" >> .config #aliddns
         echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=n" >> .config #smartdns
         echo "CONFIG_FIRMWARE_INCLUDE_WIREGUARD=n" >> .config #WireGuard
+        echo "CONFIG_FIRMWARE_INCLUDE_FTPD=n" >> .config #ftp
+        echo "CONFIG_FIRMWARE_INCLUDE_ARIA=n" >> .config #ARIA
+        echo "CONFIG_FIRMWARE_INCLUDE_ARIA_WEB_CONTROL=n" >> .config #ARIA-WEB
         else
         echo "CONFIG_FIRMWARE_INCLUDE_MENTOHUST=n" >> .config #MENTOHUST
         echo "CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT=n" >> .config #SCUTCLIENT
